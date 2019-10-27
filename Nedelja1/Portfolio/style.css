@@ -1,0 +1,148 @@
+body {
+	margin: 0px;
+    padding: 0px;
+    color: white;
+    
+} /* nasi elementi nisu direktno dodirivali body element vec je postojao 
+odredjeni prostor izmedju njih, zato smo morali da ukinemo margine 
+i da ukinemo padding nad tim body elementom*/
+.page .column {
+        height: 100vh;
+   }
+
+.column {
+    border: black solid 1px;
+	width: 1000px; /* definisali smo sirinu unutrasnjeg elementa*/
+    margin: 0px auto; 
+}
+
+
+
+       
+        
+        .nav {
+            background-color: rgb(59, 59, 59); 
+            list-style-type: none;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            position: fixed;
+            width: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+          }
+         
+          .nav li {
+            display: inline-block;
+            font-size: 30px;
+            padding: 20px;
+          
+          }
+
+         .nav a{  color: white;
+            text-decoration: none;}
+
+
+         h1 {padding-top: 70px;
+        text-align: center;}
+
+         
+        #prva {display: inline-flex;
+            width: 1000px;
+            margin-left: 100px;
+          
+          
+        }
+        #pocetna {
+        background-color: black;
+        color: white;
+        
+        
+        }
+#prva > img {height:350px; margin-top:50px;    border: 2px white solid;}
+     
+.second {text-align: center;
+margin-left: 200px; margin-top:20px; font-size: 18px ;
+}
+
+
+
+        #radovi { 
+            color: white;
+            background-color: black;
+                }
+   
+   
+            .row {
+                display: flex;
+               
+                margin-bottom: 40px;
+                justify-content: space-between; 
+                } /* izmedju elementa se dodaje onoliko prostora koliko je potrebno da 300+300+300
+                plus razmaci izmedju budu 1000px kolika je ukupna sirina flex elementa*/
+            
+            .row > div {
+                /*flex-grow: 1;*/
+                
+                text-align: center;
+                position: relative; 
+                width: 300px;
+                height: 200px; /*imaju fiksne sirine i visine*/
+                border: 2px white solid;
+            
+            } /* position relative ynaci da svi ostali elementi koji se nalazi unutar njegovog tela i maju position absolute
+                bice pozicionirani apsolutno u odnosu na pocetak njihovog prvog pretka koji ima position relative*/
+                /*ovim smo oznacili da se flex idnosi na sve divove koji su direktni child service-row klase*/
+            
+            .row > div > img {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                left: 0px;
+                bottom: 0px;
+                
+            }
+            
+            .row > div > p {
+                position: absolute;
+                left: 0px;
+                right: 0px;
+                bottom: 0px; /*da bi bio pozicioniran iznad slike*/
+                padding: 10px;
+                background-color: #ffffffA2;
+                
+                margin-bottom: 0px; /*svi paragrafi automatski imaju marginu*/
+                color: black;
+                font-weight:bold;
+                border-top: 2px solid white;
+            }
+
+            h2 {text-align: center;
+                padding-top: 70px;}
+
+         #centerform  {
+           
+            text-align: center;
+            margin: 0 auto;
+          
+            size: 20px;
+            
+        }
+
+        #kontakt {background: black;
+        }
+
+        input {width: 300px;  display: block;
+        margin: 5px auto;}
+
+        .forma  {margin: 20px;
+            display: block; 
+        
+        }
+
+        textarea {width: 300px;  display: block; margin: 5px auto;}
+ #message { height: 100px;
+}
+
+

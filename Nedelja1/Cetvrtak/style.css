@@ -1,0 +1,84 @@
+ head {
+    margin: 0px;
+    padding: 0px;
+}
+ header {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+header, nav {
+    width: 1000px; 
+    margin: 0px auto;
+    background-color: bisque;
+    text-align: center;
+}
+ul  {
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+li {   
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 10px; 
+}
+
+#pozadina {
+    background-color: rgb(252, 239, 217);
+    width: 1000px;
+    margin: 0px auto;
+}
+
+div {
+    width: 400px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+form {padding-top: 20px;}
+
+input {
+    flex-grow: 1;
+    width: 60%;
+}
+
+label {
+    flex-grow: 1;
+    width: 40%;
+}
+
+table {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-collapse: collapse;
+}
+
+table, th, td {border: solid 2px;}
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 0px 20px 0px;
+}
+
+section {padding: 20px;} 
+
+footer {margin: 0px; padding: 0px; }
+
+p {
+    background-color: bisque;
+    width: 1000px;
+    margin: 0px auto;
+    height: 40px; 
+    text-align: center; 
+    padding-top: 20px;
+}
+
+body {background-color: black;}

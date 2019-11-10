@@ -9,4 +9,4 @@ function max(a, b, c) {
 
     return max;
 }
-console.log(max(3, 7, 4));
+console.log(max(3, 7, 10));

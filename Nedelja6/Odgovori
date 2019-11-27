@@ -9,6 +9,8 @@ neki drugi gde JSON file moze da se parsira i da se protimači kao potpuno ista 
 2. Globalne varijable možemo izolovati u lokalni opseg i čime izbegavamo zagađenje globalnog prostora
 3. Možemo sačuvati neki deo koda i ponovo ga upotrebiti
 
+Npr. sajt za rasadnik može imati poseban modul gde su smestene sve biljkama. Prilikom ubacivanja novih biljaka vrsicemo izmenu samo u ovom modulu. 
+
 Шта је ECMAScript?
 ECMAScript se specifikacija skriptnog jezika standardizovana od starne ECMA – European Computer Manufacturers Association.
 JavaScript implementira ECMAScript standarde. 

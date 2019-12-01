@@ -5,26 +5,32 @@ određen način predstavimo tekstualno i taj tekstualni podatak prenesemo sa jed
 neki drugi gde JSON file moze da se parsira i da se protimači kao potpuno ista struktura podataka sa kojom smo počeli.
 
 Зашто су модули корисни? +Пример
+
 1. Olakšava izmenu, odnosno ažuriranje koda jer se ne menja ceo kod, vec se ažurira jedan modul
 2. Globalne varijable možemo izolovati u lokalni opseg i čime izbegavamo zagađenje globalnog prostora
 3. Možemo sačuvati neki deo koda i ponovo ga upotrebiti
 
-Npr. sajt za rasadnik može imati poseban modul gde su smestene sve biljkama. Prilikom ubacivanja novih biljaka vrsicemo izmenu samo u ovom modulu. 
+Npr. sajt za rasadnik može imati poseban modul gde su smeštene sve biljke. Prilikom ubacivanja novih biljaka vršićemo izmenu samo u ovom modulu. 
 
 Шта је ECMAScript?
+
 ECMAScript se specifikacija skriptnog jezika standardizovana od starne ECMA – European Computer Manufacturers Association.
 JavaScript implementira ECMAScript standarde. 
 
 Опишите како функционишу HTTP захтеви и шта је то REST API.
+
 Klijent upućuje HTTP zahtev serveru, server zatim vraća odgovor koji sadrži resurse koji su traženi.
 Svaki zahtev mora imati url adresu i metodu, 4 glavne metode su GET, POST, PUT, DELETE.
 
-REST API je deo servera koji prima zahteve i šalje odgovore, a zasniva se na http protokolu (Koristis http metode) 
+REST API je deo servera koji prima zahteve i šalje odgovore, a zasniva se na http protokolu (Koristi http metode).
 
 Која је разлика између == и === ?
+
 == ne pravi razliku između stringa i broja, vec samo upoređuje vrednosti
 === upoređuje i vrednost i tip, da li je string ili broj
+
 Шта враћа console.log(typeof typeof true);
+
 string
 Објаснити зашто
 zato što typeof vraca string, u ovom slucaju "Boolean" kao string, pa je typeof "Boolean" string

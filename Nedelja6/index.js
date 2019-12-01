@@ -19,8 +19,8 @@ function onclick() {
         return false;
     }
 
-    if (!isNaN(field2.charAt(0))) {
-        alert("Password ne moze početi brojem");
+    if (!isNaN(field.charAt(0))) {
+        alert("Username ne može početi brojem");
         return false;
     }
 
@@ -45,6 +45,7 @@ function onclick() {
 //Kao metodu bismo koristli POST.
 //JSON podate bismo pretvorili u string i parsirali
 //Uz pomoć filtera bismo mogli da izvršimo proveru tih podataka, na osnovu čega bismo dobili true ili false
+
 
 
 

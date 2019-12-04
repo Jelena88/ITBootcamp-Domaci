@@ -24,19 +24,21 @@ function onclick() {
         return false;
     }
 
-    else {
+ 
+    myObj.forEach(element=>{
+        if (element.username == field && element.password == field2){
+     
+        return alert('Ulogovali ste se')}
 
-        for (var i = 0; i <= myObj.length; i++) {
-            if (myObj[i].username !== field && myObj[i].passwor !== field2)
-
-                alert('Nema Vas u bazi podataka')
-
-            else { alert('Ulogovali ste se') }
-            return true;
-        }
-
+      
+               
+   
+            
+        })
     }
-}
+
+    
+
 
 
 //5. Sa Backendom bismo to uradili na sledeći način

@@ -18,18 +18,18 @@ class MessageInput {
         this.node.appendChild(this.set);
 
         this.sendButton = document.createElement('button');
-        this.sendButton.textContent = 'Posalji poruku'; // dugme za send
+        this.sendButton.textContent = 'Posalji poruku'; 
 
 
         
         this.node.appendChild(this.message);
-        this.node.appendChild(this.sendButton); // prostor za kucanje i dugme smo stavili u jedan div
+        this.node.appendChild(this.sendButton); 
     }
     getNode() {
         return this.node;
     }
     btn_send_on_click(on_click) {
-        this.sendButton.addEventListener('click', on_click); // pozvali smo funkciju za slanje poruke
+        this.sendButton.addEventListener('click', on_click); 
     }
 }
 

@@ -27,6 +27,8 @@ class Content {
             .then(response => {
                 if(response.success == true) {
                     messages.getNode();
+                    location.reload()
+                
                 }
             })
 

@@ -4,12 +4,12 @@ class Message {
          
         this.data = data;
         this.message = document.createElement('label');
-        this.message.textContent = `Poruka: ${this.data.message} ` ; 
+        this.message.textContent = ` ${this.data.message} ` ; 
   
         this.time = document.createElement('label'); 
-        this.time.textContent = `Datum: ${new Date(this.data.timestamp)} `
+        this.time.textContent = `${new Date(this.data.timestamp).toLocaleTimeString({hour12: true})} `
         this.author = document.createElement('label');
-        this.author.textContent =`Autor: ${this.data.username}`;
+        this.author.textContent =` ${this.data.username}:`;
         this.container = document.createElement('div'); 
 
         this.message.className = 'message';

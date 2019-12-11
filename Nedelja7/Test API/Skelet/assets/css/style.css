@@ -1,0 +1,22 @@
+#app {  margin:50px 0px; padding:0px;
+    text-align:center;
+    }
+
+.container {
+    border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.author { font-weight: bold;
+    margin: 2px;
+
+    
+}
+.message{ 
+    margin: 10px;
+    color: blue;
+    
+}
